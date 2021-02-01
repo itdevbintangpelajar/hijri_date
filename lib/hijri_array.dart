@@ -2,9 +2,9 @@ final Map<int, String> monthNames = {
   1: 'Muharram',
   2: 'Safar',
   3: 'Rabi\' Al-Awwal',
-  4: 'Rabi\' Al-Thani',
+  4: 'Rabi\' Al-Akhir', //if we wrote rabi' al-thani then there will be rabi' al-thalith, rabi' al-rabi' etc.
   5: 'Jumada Al-Awwal',
-  6: 'Jumada Al-Thani',
+  6: 'Jumada Al-Akhiirah', //if we wrote jumada al-thani then there will be jumada al-thalith, jumada al-rabi' etc.
   7: 'Rajab',
   8: 'Sha\'aban',
   9: 'Ramadan',
@@ -32,9 +32,9 @@ final Map<int, String> arMonthNames = {
   1: 'محرم',
   2: 'صفر',
   3: 'ربيع الاول',
-  4: 'ربيع الثاني',
+  4: 'ربيع الآخر',
   5: 'جمادى الأول',
-  6: 'جمادى الثاني',
+  6: 'جمادى الآخرة',
   7: 'رجب',
   8: 'شعبان',
   9: 'رمضان',
